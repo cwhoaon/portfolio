@@ -1,0 +1,18 @@
+#container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+	justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.column {
+    width: 40%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}

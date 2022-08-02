@@ -1,0 +1,46 @@
+#item {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    display: grid;
+    grid-template-rows: 60px 50px 2fr 1.5fr;
+}
+
+#item > h3 {
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 45px;
+}
+
+#item > h4 {
+    padding-top: 5px;
+    padding-left: 15px;
+    font-size: 30px;
+}
+
+#item > ul {
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+li {
+    font-size: 20px;
+}
+
+#paragraph {
+    width: 100;
+    height: 100;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 0 0 3px #FFFFFF inset;
+    background-color: 'FFC0C0';
+    display: flex;
+    align-items: center;
+}
+
+#paragraph > p {
+    font-size: 20px;
+}
